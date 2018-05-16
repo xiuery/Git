@@ -9,6 +9,20 @@
 ```
 git status
 ```
+- 查看更改信息（没有add）
+```
+git diff
+```
+
+- 查看更改信息（add但没有commit）
+```
+git diff --cached
+```
+
+- 查看更改信息（上面两条的合并）
+```
+git diff HEAD
+```
 
 - 添加所有更改
 ```
