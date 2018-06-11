@@ -162,6 +162,14 @@ git reset [--hard|soft|mixed|merge|keep] commit(给定commit的hash值)
 还原：执行上面一条重新push
 ```
 
+- 大文件push失败撤销
+```
+# 查看有大文件提交的id
+git log
+# 撤回
+git reset –hard id
+```
+
 ### 存储密码
 ```
 git config --global user.name colinw
