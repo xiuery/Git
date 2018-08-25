@@ -172,7 +172,7 @@ git reset –hard id
 
 ### 存储密码
 ```
-git config --global user.name colinw
+git config --global user.name xiuery
 echo "[credential]" >> .git/config
 echo "    helper = store" >> .git/config
 ```
