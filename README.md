@@ -3,6 +3,18 @@
 
 > 注意检查分支
 
+### 存储密码
+```
+git config --global user.name xiuery
+echo "[credential]" >> .git/config
+echo "    helper = store" >> .git/config
+```
+
+### 查看配置信息
+```
+git config --list
+```
+
 ### 简单命令
 
 - 检查提交状态
@@ -168,16 +180,4 @@ git reset [--hard|soft|mixed|merge|keep] commit(给定commit的hash值)
 git log
 # 撤回
 git reset –hard id
-```
-
-### 存储密码
-```
-git config --global user.name xiuery
-echo "[credential]" >> .git/config
-echo "    helper = store" >> .git/config
-```
-
-### 查看配置信息
-```
-git config --list
 ```
